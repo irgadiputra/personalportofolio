@@ -24,7 +24,7 @@ export default function AboutMeSection() {
   }, [aboutme]);
 
   return (
-    <div ref={aboutRef} id="aboutme-section" className="relative bg-[#D98324] h-screen w-full grid grid-cols-8 grid-rows-9 gap-4 pt-5 bg-cover bg-center bg-[url('../app/image/Picture4.png')] text-[#FFF0DC]">
+    <div ref={aboutRef} id="aboutme-section" className="relative bg-[#D98324] h-screen w-full grid grid-cols-8 grid-rows-9 gap-4 pt-5 bg-cover bg-center bg-[url('../app/image/picture4.png')] text-[#FFF0DC]">
       <div className="flex flex-col items-center justify-end w-full col-span-8 text-[20px] -mb-6">
         - About me
       </div>
